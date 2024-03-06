@@ -1,7 +1,7 @@
 import React from 'react'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
-import { Search, SearchCheckIcon } from 'lucide-react'
+import { MapPinned, Search, SearchCheckIcon } from 'lucide-react'
 
 function CategorySearch() {
   return (
@@ -10,8 +10,8 @@ function CategorySearch() {
         <h2 className='text-gray-500 text-xl'></h2>
 
         <div className="flex w-full mt-3 max-w-sm items-center space-x-2">
-      <Input type="text" placeholder="Search Now Here!!!" />
-      <Button type="submit">
+      <Input type="text" placeholder="Search Now Here!!!" style={{ borderRadius: '20px' }}/>
+      <Button type="submit" style={{ borderRadius: '20px' }}>
         <SearchCheckIcon className='h-4 w-4 mr-1'/>
         Search</Button>
     </div>
