@@ -25,7 +25,7 @@ function Header() {
     <div className='flex items-center justify-between p-4 shadow-md'>
         <div className='flex items-center gap-10 mx-8'>
             <Image src='/uclogonew.png' alt="logo" 
-            width={70} height={70}
+            width={80} height={80}
             />
            <ul className='md:flex gap-8 hidden mx-8'>
                {Menu.map((item,index)=>(
