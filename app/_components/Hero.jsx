@@ -11,8 +11,8 @@ function Hero() {
         <Image
           alt=""
           src="/image2.jpeg"
-          width={800}
-          height={800}
+          width={1000}
+          height={1000}
           className="absolute inset-0 h-full rounded-3xl w-full object-cover"
         />
       </div>
