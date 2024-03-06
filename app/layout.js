@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <link rel="icon"  href="/uclogonew.png" />
       </head>
       <body className={outfit.className}>
-        <div className="md:px-20">
+        <div className="md:px-1">
           <Header />
           {children}
         </div>
