@@ -22,7 +22,7 @@ function Header() {
         },
     ]
   return (
-    <div className='flex items-center justify-between p-4 border-b border-green-300 shadow-lg'>
+    <div className='flex items-center justify-between p-4 border-b border-green-300 shadow-green-100 shadow-lg shadow-blur'>
         <div className='flex items-center gap-10 mx-8'>
             <Image src='/uclogonew.png' alt="logo" 
             width={80} height={80}
