@@ -25,6 +25,7 @@ function Hero() {
         </p>
 
         <Button className='mt-10' style={{ borderRadius: '20px' }}>Back to UC GastroBaguio</Button>
+        <Button className='mx-8' style={{ borderRadius: '20px' }}>Log In Now Here!</Button>
       </div>
     </div>
   </div>
