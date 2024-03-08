@@ -23,7 +23,7 @@ function Header() {
     ];
     return (
         <div className='flex items-center justify-between p-4 shadow-lg'>
-            <div className='flex items-center gap-4 mx-8'>
+            <div className='flex items-center gap-4 mx-4'>
                 <Image src='/uclogonew.png' alt="logo"
                     width={80} height={80} style={{ margin: '0 20px' }}
                 />
