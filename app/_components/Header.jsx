@@ -23,7 +23,7 @@ function Header() {
     ];
     return (
         <div className='flex items-center justify-between p-4 shadow-lg'>
-            <div className='flex items-center gap-4 mx-10'>
+            <div className='flex items-center gap-4 mx-8'>
                 <Image src='/uclogonew.png' alt="logo"
                     width={80} height={80} style={{ margin: '0 20px' }}
                 />
@@ -38,7 +38,7 @@ function Header() {
                         </Link>
                     ))}
                 </ul>
-                <Button className='mx-10 hover:bg-black' style={{ borderRadius: '20px', marginLeft: '20px' }}>Log In Now Here!</Button>
+                <Button className='mx-8 hover:bg-black' style={{ borderRadius: '20px', marginLeft: '20px' }}>Log In Now Here!</Button>
             </div>
         </div>
     );
