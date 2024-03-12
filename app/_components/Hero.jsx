@@ -24,7 +24,7 @@ function Hero() {
            Welcome to the University of the Cordilleras GastroBaguio - Consultation System! You can now schedule your consultation with the hospitals based in Baguio City, Philippines, quickly and efficiently on this online platform!
         </p>
 
-        <Button className='mt-10 hover:bg-black' style={{ borderRadius: '20px' }}>Back to UC GastroBaguio</Button>
+        <a href="https://ucgastrobaguio.vercel.app/"><Button className='mt-10 hover:bg-black' style={{ borderRadius: '20px' }}>Back to UC GastroBaguio</Button></a>
       </div>
     </div>
   </div>
