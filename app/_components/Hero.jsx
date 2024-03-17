@@ -26,7 +26,7 @@ function Hero() {
 
         <a href="https://ucgastrobaguio.vercel.app/" className='mt-10 hover:bg-black' style={{ borderRadius: '20px' }}>
           <Button className='mt-10 hover:bg-black' style={{ borderRadius: '20px' }}>Back to UC GastroBaguio</Button>
-       </a>
+        </a>
       </div>
     </div>
   </div>
