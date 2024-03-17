@@ -44,13 +44,13 @@ function CategorySearch() {
     </div>
 
         {/* Display List of Category */}
-        <div className='grid grid-cols-2'>
+        <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2'>
         {categoryList1.map((item, index) =>index<2&& (
           <div key={index} className='flex 
           flex-col text-center items-center p-4 bg-green-50 m-2 rounded-xl
-          gap-2'>
+          gap-2 hover:scale-110 transition-all ease-in-out hover:bg-black'>
             <img src={item.imageUrl} alt={item.name} width={40} height={40} />
-            <label className=''>{item.name}</label>
+            <label className='text-green-600 text-sm'>{item.name}</label>
           </div>
         ))}
         </div>
