@@ -32,17 +32,19 @@ function CategorySearch() {
     })
   }
   return (
-    <div className='mb-10 items-center flex flex-col gap-2 mt-24'>
-        <h2 className='font-bold text-4xl tracking-wide'><span className='text-primary'style={{ fontFamily: '"Lucida Fax Demi", serif' }}>Search Hospitals</span><span style={{ fontFamily: '"Lucida Fax Demi", serif' }}> in Baguio City, Philippines</span></h2>
+    <div className='mb-10 items-center px-5 flex flex-col gap-2 mt-24'>
+        <h2 className='font-bold text-3xl tracking-wide'><span className='text-primary'style={{ fontFamily: '"Lucida Fax Demi", serif' }}>Search hospitals</span><span style={{ fontFamily: '"Lucida Fax Demi", serif' }}> in Baguio City, Philippines</span></h2>
         <h2 className='text-gray-500 text-xl'></h2>
 
         <div className="flex w-full mt-3 max-w-md items-center space-x-2">
-      <Input type="text" placeholder="Search Now Here!!!" style={{ borderRadius: '20px' }}/>
       <Button type="submit" style={{ borderRadius: '20px' }} className="hover:bg-black">
-        <SearchCheckIcon className='h-4 w-4 mr-1'/>
-        Search</Button>
+        <Search className='h-4 w-4 mr-1'/>
+        Search
+      </Button>
+      <Input type="text" placeholder="Search Here..." style={{ borderRadius: '20px' }}/>
     </div>
-
+    
+        <h2 className='font-bold text-2xl tracking-wide'><span className='text-primary'style={{ fontFamily: '"Lucida Fax Demi", serif' }}>Categories</span><span style={{ fontFamily: '"Lucida Fax Demi", serif' }}></span></h2>
         {/* Display List of Category */}
         <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2'>
         {categoryList1.map((item, index) =>index<2&& (
