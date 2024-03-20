@@ -27,7 +27,7 @@ export default () => {
         <section className="py-14">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="max-w-xl sm:text-center md:mx-auto">
-                    <h3 className="text-primary text-2xl font-semibold sm:text-4xl" style={{ fontFamily: '"Lucida Fax Demi", serif' }}>
+                    <h3 className="text-primary text-3xl font-semibold sm:text-4xl" style={{ fontFamily: '"Lucida Fax Demi", serif' }}>
                         See what our valued users says
                     </h3>
                     <p className="mt-3 text-gray-600">
