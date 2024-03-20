@@ -54,7 +54,7 @@ function HospitalList({hospitalList}) {
                         <h2 className='text-primary text-sm'>{hospital.year}</h2>
                         <h2 className='text-gray-500 text-sm'>{hospital.address}</h2>
 
-                        <h2 className='p-2 px-3 border-[1px] border-primary text-primary rounded-lg w-full text-center text-[13px] mt-2 cursor-pointer
+                        <h2 className='p-2 px-10 border-[1px] border-primary text-primary rounded-lg  text-center text-[13px] mt-2 cursor-pointer
                          hover:bg-primary hover:text-white '>Consultation</h2>
                     </div>
                 </div>
