@@ -3,6 +3,7 @@ import "./globals.css";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import Team from "./_components/Team";
+import Reviews from "./_components/Reviews";
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -22,9 +23,10 @@ export default function RootLayout({ children }) {
           <Header />
           {children}
           <Team />
-          <Footer />
+          <Reviews />
           
         </div>
+        <Footer />
       </body>
     </html>
   );
