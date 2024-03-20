@@ -37,7 +37,7 @@ export default () => {
                         Meet our team
                     </h3>
                     <p className="text-gray-600 mt-3">
-                       A TEAM OF INNOVATIVE & PASSIONATE FROM UC BAGUIO.
+                       A team of innovative & passionate from UC Baguio.
                     </p>
                 </div>
                 <div className="mt-12">

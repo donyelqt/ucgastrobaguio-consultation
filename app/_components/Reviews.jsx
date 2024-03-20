@@ -31,7 +31,7 @@ export default () => {
                         See what our valued users says
                     </h3>
                     <p className="mt-3 text-gray-600">
-                       WE VALUED OUR USERS' FEEDBACK SO THAT WE COULD CONTINUOUSLY IMPROVE OUR WEB APPLICATIONS AND PROVIDE HEALTHCARE SOLUTIONS MORE EFFICIENTLY.
+                       We valued our users' feedback so that we could continuously improve our web applications and provide healthcare solutions more efficiently.
                     </p>
                 </div>
                 <div className="mt-12">
