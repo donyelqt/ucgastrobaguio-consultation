@@ -12,7 +12,7 @@ export default () => {
             twitter: "javascript:void(0)",
         },
         {
-            avatar: "/Cedrick Ucgastro.jpg",
+            avatar: "/Cedrick ucgastro.jpg",
             name: "Cedrick Bautista",
             title: "Data Analyst, Writer, Logo Designer",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
@@ -45,7 +45,7 @@ export default () => {
                         {
                             team.map((item, idx) => (
                                 <li key={idx}>
-                                    <div className="w-40 h-40 mx-auto">
+                                    <div className="w-28 h-28 mx-auto">
                                         <img
                                             src={item.avatar}
                                             className="w-full h-full rounded-full"
