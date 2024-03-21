@@ -47,14 +47,23 @@ function CategorySearch() {
         <h2 className='font-bold text-2xl tracking-wide'><span className='text-primary'style={{ fontFamily: '"Lucida Fax Demi", serif' }}>Categories</span><span style={{ fontFamily: '"Lucida Fax Demi", serif' }}></span></h2>
         {/* Display List of Category */}
         <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2'>
-        {categoryList1.map((item, index) =>index<2&& (
+        {categoryList1.length>0?categoryList1.map((item, index) =>index<2&& (
           <div key={index} className='flex 
           flex-col text-center items-center p-4 bg-green-50 m-2 rounded-xl cursor-grab
           gap-2 hover:scale-110 transition-all ease-in-out hover:bg-black'>
             <img src={item.imageUrl} alt={item.name} width={40} height={40} />
             <label className='text-green-600 text-sm'>{item.name}</label>
           </div>
-        ))}
+        ))
+      :
+      [1,2].map((item,index)=>(
+        <div className='h-[100px] w-[100px] m-3 bg-slate-200 
+        animate-pulse rounded-lg'>
+  
+        </div>
+      ))
+     
+      }
         </div>
     </div>
   )

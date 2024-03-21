@@ -39,7 +39,7 @@ function HospitalList({hospitalList}) {
            
         </h2>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 mt-4 lg:grid-cols-4'>
-            {hospitalList1&&hospitalList1.map((hospital,index)=>(
+            {hospitalList1.length>0?hospitalList1.map((hospital,index)=>(
                 <div className='border-[1px] rounded-3xl p-8 bg-white-50 cursor-pointer hover:border-primary 
                 hover:shadow-xl transition-all ease-in-out hover:scale-95' key={index} >
                     <Image src={hospital.imageUrl} 
@@ -58,7 +58,18 @@ function HospitalList({hospitalList}) {
                          hover:bg-primary hover:text-white '>Consultation</h2>
                     </div>
                 </div>
-            ))}
+            ))
+        
+        :
+        // Skelton Effect
+        [1,2,3,4].map((item,index)=>(
+            <div className='h-[220px] bg-slate-200 
+            w-full rounded-3xl animate-pulse'>
+
+            </div>
+        ))
+      
+        }
         </div>
     </div>
   )
