@@ -43,7 +43,7 @@ function CategorySearch() {
       </Button>
       <Input type="text" placeholder="Search Here..." style={{ borderRadius: '20px' }}/>
     </div>
-    
+    <br/>
         <h2 className='font-bold text-2xl tracking-wide'><span className='text-primary'style={{ fontFamily: '"Lucida Fax Demi", serif' }}>Categories</span><span style={{ fontFamily: '"Lucida Fax Demi", serif' }}></span></h2>
         {/* Display List of Category */}
         <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2'>
