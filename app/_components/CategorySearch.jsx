@@ -41,7 +41,7 @@ function CategorySearch() {
         <Search className='h-4 w-4 mr-1'/>
         Search
       </Button>
-      <Input type="text" placeholder="Search Here..." style={{ borderRadius: '20px' }}/>
+      <Input type="text" placeholder="Search Here..."  style={{ borderRadius: '20px' }}/>
     </div>
     <br/>
         <h2 className='font-bold text-2xl tracking-wide'><span className='text-primary'style={{ fontFamily: '"Lucida Fax Demi", serif' }}>Categories</span><span style={{ fontFamily: '"Lucida Fax Demi", serif' }}></span></h2>
