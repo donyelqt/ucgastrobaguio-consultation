@@ -39,26 +39,37 @@ function CategoryList() {
     })
   }
   return (
-    <div className='h-screen fixed mt-5 flex flex-col'>
-      <Command>
-  <CommandInput placeholder="Type a command or search..." />
-  <CommandList className="overflow-visible">
-    <CommandEmpty>No results found.</CommandEmpty>
-    <CommandGroup heading="Suggestions">
-      {categoryList1&&categoryList1.map((item,index)=>(
-        <CommandItem>
-          <Link href={''}
-          className='p-2 flex gap-2 text-[12px] text-green-600 rounded-md cursor-pointer w-full'>
-            <img src={item.imageUrl} alt={item.name} width={40} height={40} />
-            <label>{item.name}</label>
-          </Link>
-        </CommandItem>
-      ))}
-    </CommandGroup>
-   
-  </CommandList>
-</Command>
-    </div>
+    <div className='h-screen'>
+  <Command>
+    <CommandInput placeholder="Type a command or search..." />
+    <CommandList>
+      <CommandEmpty>No results found.</CommandEmpty>
+      <CommandGroup heading="Suggestions">
+        <button className="w-full hover:bg-green-300 bg-slate-50" onClick={() => alert('Calendar clicked!')}>
+          <CommandItem>Calendar</CommandItem>
+        </button>
+        <button className="w-full hover:bg-green-300 bg-slate-50" onClick={() => alert('Search Emoji clicked!')}>
+          <CommandItem>Search Emoji</CommandItem>
+        </button>
+        <button className="w-full hover:bg-green-300 bg-slate-50" onClick={() => alert('Calculator clicked!')}>
+          <CommandItem>Calculator</CommandItem>
+        </button>
+      </CommandGroup>
+      <CommandSeparator />
+      <CommandGroup heading="Settings">
+        <button className="w-full hover:bg-green-300 bg-slate-50" onClick={() => alert('Profile clicked!')}>
+          <CommandItem>Profile</CommandItem>
+        </button>
+        <button className="w-full hover:bg-green-300 bg-slate-50" onClick={() => alert('Billing clicked!')}>
+          <CommandItem>Billing</CommandItem>
+        </button>
+        <button className="w-full hover:bg-green-300 bg-slate-50" onClick={() => alert('Settings clicked!')}>
+          <CommandItem>Settings</CommandItem>
+        </button>
+      </CommandGroup>
+    </CommandList>
+  </Command>
+</div>
   )
 }
 
