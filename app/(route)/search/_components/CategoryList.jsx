@@ -45,7 +45,7 @@ function CategoryList() {
     <CommandList>
       <CommandEmpty>No results found.</CommandEmpty>
       <CommandGroup heading="Suggestions">
-        <button className="w-full hover:bg-green-300 bg-slate-50" onClick={() => alert('Calendar clicked!')}>
+        <button className="w-full hover:bg-green-300 bg-slate-40" onClick={() => alert('Calendar clicked!')}>
           <CommandItem>Calendar</CommandItem>
         </button>
         <button className="w-full hover:bg-green-300 bg-slate-50" onClick={() => alert('Search Emoji clicked!')}>
