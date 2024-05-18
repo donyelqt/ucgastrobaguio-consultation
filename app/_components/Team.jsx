@@ -22,7 +22,7 @@ export default () => {
         {
             avatar: "/ian ucgastro.jpg",
             name: "Ian Paloga",
-            title: "Business Analyst, Writer",
+            title: "Analyst, Writer",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
             linkedin: "javascript:void(0)",
             twitter: "javascript:void(0)",
