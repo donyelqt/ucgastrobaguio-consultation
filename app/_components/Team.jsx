@@ -14,7 +14,7 @@ export default () => {
         {
             avatar: "/Cedrick ucgastro.jpg",
             name: "Cedrick Bautista",
-            title: "Data Analyst, Writer, Logo Designer",
+            title: "Analyst, Logo Designer",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
             linkedin: "javascript:void(0)",
             twitter: "javascript:void(0)",
